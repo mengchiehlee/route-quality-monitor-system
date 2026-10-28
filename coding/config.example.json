@@ -1,0 +1,86 @@
+{
+  "monitor_sheet": "2",
+  "source_sheet": "1",
+  "center_timing_sheet": "中心签出时效 (24)",
+  "signin_excluded_sheet": "中心签入时效 (25)",
+  "signin_included_sheet": "中心签入时效 (26)",
+  "data_start_row": 4,
+  "header_row": 3,
+  "source_header_row": 2,
+  "france_holidays": [
+    "2026/5/1",
+    "2026/5/8",
+    "2026/5/14"
+  ],
+  "center_timing_route_overrides": {
+    "MSL|13-AMBR|13-AMBR": "13-AMBR-022",
+    "NCE|06-RIV|06-RIV": "06-RIV-023",
+    "NTE|44-ISG|44-ISG": "44-ISG-024",
+    "MTZ|57-RAP|57-RAP": "57-RAP-021"
+  },
+  "projects": [
+    {
+      "area": "BDX",
+      "dsp": "33-DTL",
+      "routes": ["33-DTL-010"]
+    },
+    {
+      "area": "BDX",
+      "dsp": "33-NAS",
+      "routes": ["33-NAS-016"]
+    },
+    {
+      "area": "BDX",
+      "dsp": "33-TRL",
+      "routes": ["33-TRL-018"]
+    },
+    {
+      "area": "TLS",
+      "dsp": "31-OVTR",
+      "routes": ["31-OVTR-019"]
+    },
+    {
+      "area": "RNS",
+      "dsp": "35-ATT",
+      "routes": ["35-ATT-020"]
+    },
+    {
+      "area": "MSL",
+      "dsp": "13-AMBR",
+      "routes": ["13-AMBR-022"],
+      "start_date": "2026/5/28"
+    },
+    {
+      "area": "NCE",
+      "dsp": "06-RIV",
+      "routes": ["06-RIV-023"],
+      "start_date": "2026/5/28"
+    },
+    {
+      "area": "NTE",
+      "dsp": "44-ISG",
+      "routes": ["44-ISG-024"],
+      "start_date": "2026/5/28"
+    },
+    {
+      "area": "MTZ",
+      "dsp": "57-RAP",
+      "routes": ["57-RAP-021"],
+      "start_date": "2026/5/25"
+    }
+  ],
+  "metric_aliases": {
+    "date": ["日期", "Date"],
+    "area": ["Area", "区域"],
+    "dsp": ["DSP"],
+    "route": ["路区", "Route", "线路"],
+    "dispatch_qty": ["签出量", "迁出量", "出库量", "DSP to-be-delivered volume"],
+    "delivered_qty": ["妥投量", "妥投", "Delivered parcels on that day"],
+    "fake_sign_qty": ["虚假签收", "虚签", "虚签签收", "虚签签收量", "FAKE Delivery"],
+    "fake_sign_rate": ["虚假签收率", "虚签签收率", "虚签率", "FAKE Delivery ratio\n（Target≤0.06%）"],
+    "complaint_qty": ["客诉", "客诉量", "Customer complaint"],
+    "complaint_rate": ["客诉率", "Customer complaint ratio\n（Target≤0.70%）"],
+    "suspected_lost_qty": ["疑似丢失量", "疑似丢失", "Susepcted loss", "Suspected loss"],
+    "tracking_break_qty": ["轨迹断更量", "轨迹断更", "No tracking update for more than 7 days"]
+  }
+}

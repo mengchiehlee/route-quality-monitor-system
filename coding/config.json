@@ -1,0 +1,252 @@
+{
+  "monitor_sheet": "2",
+  "source_sheet": "1",
+  "center_timing_sheet": "中心签出时效",
+  "signin_excluded_sheet": "中心签入时效",
+  "signin_included_sheet": "中心签入时效",
+  "data_start_row": 4,
+  "header_row": 3,
+  "source_header_row": 2,
+  "france_holidays": [
+    "2026/5/1",
+    "2026/5/8",
+    "2026/5/14",
+    "2026/7/14"
+  ],
+  "center_timing_route_overrides": {},
+  "projects": [
+    {
+      "area": "BDX",
+      "dsp": "33-NAS",
+      "routes": ["33-NAS-016"]
+    },
+    {
+      "area": "BDX",
+      "dsp": "33-TRL",
+      "routes": ["33-TRL-018"]
+    },
+    {
+      "area": "TLS",
+      "dsp": "31-OVTR",
+      "routes": ["31-OVTR-019"]
+    },
+    {
+      "area": "TLS",
+      "dsp": "31-NEA",
+      "routes": ["31-NEA-028"]
+    },
+    {
+      "area": "TLS",
+      "dsp": "31-DDTR",
+      "routes": ["31-DDTR-062"]
+    },
+    {
+      "area": "RNS",
+      "dsp": "35-RGO",
+      "routes": ["35-RGO-025"]
+    },
+    {
+      "area": "RNS",
+      "dsp": "35-YAZ",
+      "routes": ["35-YAZ-069"]
+    },
+    {
+      "area": "NTE",
+      "dsp": "44-ISG",
+      "routes": ["44-ISG-024"]
+    },
+    {
+      "area": "NTE",
+      "dsp": "44-GDS",
+      "routes": ["44-GDS-030"]
+    },
+    {
+      "area": "MTP",
+      "dsp": "34-ASG",
+      "routes": ["34-ASG-032"]
+    },
+    {
+      "area": "LYN",
+      "dsp": "69-TLL",
+      "routes": ["69-TLL-027"]
+    },
+    {
+      "area": "LYN",
+      "dsp": "69-TLC",
+      "routes": ["69-TLC-089"]
+    },
+    {
+      "area": "BON",
+      "dsp": "75-LED",
+      "routes": ["75-LED-017"]
+    },
+    {
+      "area": "BON",
+      "dsp": "75-LED",
+      "routes": ["75-LED-039"]
+    },
+    {
+      "area": "BON",
+      "dsp": "75-LED",
+      "routes": ["75-LED-044"]
+    },
+    {
+      "area": "BON",
+      "dsp": "75-STM",
+      "routes": ["75-STM-036"]
+    },
+    {
+      "area": "BON",
+      "dsp": "75-STM",
+      "routes": ["75-STM-046"]
+    },
+    {
+      "area": "BON",
+      "dsp": "75-EAR",
+      "routes": ["75-EAR-038"]
+    },
+    {
+      "area": "BON",
+      "dsp": "75-EAR",
+      "routes": ["75-EAR-045"]
+    },
+    {
+      "area": "BON",
+      "dsp": "75-CCR",
+      "routes": ["75-CCR-041"]
+    },
+    {
+      "area": "BON",
+      "dsp": "75-POT",
+      "routes": ["75-POT-050"]
+    },
+    {
+      "area": "BON",
+      "dsp": "75-CSS",
+      "routes": ["75-CSS-056"]
+    },
+    {
+      "area": "BON",
+      "dsp": "75-GIR",
+      "routes": ["75-GIR-054"]
+    },
+    {
+      "area": "BON",
+      "dsp": "75-FRR",
+      "routes": ["75-FRR-074"]
+    },
+    {
+      "area": "BON",
+      "dsp": "75-LKT",
+      "routes": ["75-LKT-071"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-NEO",
+      "routes": ["75-NEO-033"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-NEO",
+      "routes": ["75-NEO-034"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-NEO",
+      "routes": ["75-NEO-035"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-TNC",
+      "routes": ["75-TNC-001"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-TNC",
+      "routes": ["75-TNC-002"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-TNC",
+      "routes": ["75-TNC-003"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-MFT",
+      "routes": ["75-MFT-004"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-MFT",
+      "routes": ["75-MFT-011"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-MFT",
+      "routes": ["75-MFT-042"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-SHT",
+      "routes": ["75-SHT-048"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-SHT",
+      "routes": ["75-SHT-049"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-BIC",
+      "routes": ["75-BIC-037"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-LRF",
+      "routes": ["75-LRF-007"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-LRF",
+      "routes": ["75-LRF-040"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-DHM",
+      "routes": ["75-DHM-047"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-TEP",
+      "routes": ["75-TEP-051"]
+    },
+    {
+      "area": "PRS",
+      "dsp": "75-TEP",
+      "routes": ["75-TEP-052"]
+    },{
+      "area": "PRS",
+      "dsp": "75-TEP",
+      "routes": ["75-TEP-053"]
+    },
+    {
+      "area": "PIS",
+      "dsp": "86-FDL",
+      "routes": ["86-FDL-058"]
+    }
+  ],
+  "metric_aliases": {
+    "date": ["日期", "Date"],
+    "area": ["Area", "区域"],
+    "dsp": ["DSP"],
+    "route": ["路区", "Route", "线路"],
+    "dispatch_qty": ["签出量", "迁出量", "出库量", "DSP to-be-delivered volume"],
+    "delivered_qty": ["妥投量", "妥投", "Delivered parcels on that day"],
+    "fake_sign_qty": ["虚假签收", "虚签", "虚签签收", "虚签签收量", "FAKE Delivery"],
+    "fake_sign_rate": ["虚假签收率", "虚签签收率", "虚签率", "FAKE Delivery ratio\n（Target≤0.06%）"],
+    "complaint_qty": ["客诉", "客诉量", "Customer complaint"],
+    "complaint_rate": ["客诉率", "Customer complaint ratio\n（Target≤0.70%）"],
+    "suspected_lost_qty": ["疑似丢失量", "疑似丢失", "Susepcted loss", "Suspected loss"],
+    "tracking_break_qty": ["轨迹断更量", "轨迹断更", "No tracking update for more than 7 days"]
+  }
+}
